@@ -58,26 +58,7 @@ local args15 = {
     [1] = "\230\142\137\232\144\189\231\137\169",
     [2] = "2201"
 }
-local args16 = {
-    [1] = "\230\142\137\232\144\189\231\137\169",
-    [2] = "2201"
-}
-local args17 = {
-    [1] = "\230\142\137\232\144\189\231\137\169",
-    [2] = "2201"
-}
-local args18 = {
-    [1] = "\230\142\137\232\144\189\231\137\169",
-    [2] = "2201"
-}
-local args19 = {
-    [1] = "\230\142\137\232\144\189\231\137\169",
-    [2] = "2201"
-}
-local args20 = {
-    [1] = "\230\142\137\232\144\189\231\137\169",
-    [2] = "2201"
-}
+
 while wait(0.000001) do
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args2))
@@ -94,9 +75,4 @@ game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServ
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args13))
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args14))
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args15))
-game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args16))
-game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args17))
-game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args18))
-game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args19))
-game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args20))
 end
