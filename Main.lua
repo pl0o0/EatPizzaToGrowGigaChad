@@ -38,14 +38,6 @@ local args10 = {
     [1] = "\230\142\137\232\144\189\231\137\169",
     [2] = "2201"
 }
-local args11 = {
-    [1] = "\230\142\137\232\144\189\231\137\169",
-    [2] = "2201"
-}
-local args12 = {
-    [1] = "\230\142\137\232\144\189\231\137\169",
-    [2] = "2201"
-}
 
 while wait(0.000001) do
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args))
@@ -58,6 +50,4 @@ game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServ
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args8))
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args9))
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args10))
-game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args11))
-game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args12))
 end
