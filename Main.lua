@@ -39,7 +39,7 @@ local args10 = {
     [2] = "2201"
 }
 
-while wait(0.000001) do
+while wait(0.0001) do
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args))
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args2))
 game:GetService("ReplicatedStorage").Msg:FindFirstChild("\229\144\131"):FireServer(unpack(args3))
